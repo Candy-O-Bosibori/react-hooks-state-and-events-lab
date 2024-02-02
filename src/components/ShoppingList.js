@@ -9,7 +9,7 @@ function ShoppingList({ items }) {
   }
 
   const itemsToDisplay = items.filter((item)=>{
-    if (selectedCategory === "all") return true;
+  
 
 
     return item.category === selectedCategory;
